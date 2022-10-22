@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.notifications-container {
+  background-color: #ffffff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-container {
+  display: flex;
+  width: 60%;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  padding: 12px;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-color: #e5e5e5;
+}
+
+.alert-container {
+  display: flex;
+  align-items: flex-start;
+}
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.notification-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.success-icon {
+  align-self: center;
+  margin-right: 24px;
+  color: #2dca73;
+}
+
+.success {
+  font-size: 26px;
+  color: #2dca73;
+}
+
+.text {
+  margin-left: 42px;
+  margin-top: 0px;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.error-icon {
+  align-self: center;
+  margin-right: 24px;
+  color: #ff0b37;
+}
+
+.error {
+  font-size: 26px;
+  color: #ff0b37;
+}
+
+.warning-icon {
+  align-self: center;
+  margin-right: 24px;
+  color: #ffb800;
+}
+
+.warning {
+  font-size: 26px;
+  color: #ffb800;
+}
+
+.info-icon {
+  align-self: center;
+  margin-right: 24px;
+  color: #0f81e0;
+}
+
+.info {
+  font-size: 26px;
+  color: #0f81e0;
+}
